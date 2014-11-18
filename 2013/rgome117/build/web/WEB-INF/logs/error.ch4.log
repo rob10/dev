@@ -1,0 +1,187 @@
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-28
+      2013-11-22 18:49:46,451 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-28
+      2013-11-22 18:49:46,451 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-40
+      2013-11-22 19:19:18,875 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-40
+      2013-11-22 19:19:18,875 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-49
+      2013-11-22 19:42:59,919 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-49
+      2013-11-22 19:42:59,919 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-41
+      2013-11-22 19:47:53,995 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-41
+      2013-11-22 19:47:53,995 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-61
+      2013-11-22 19:48:37,339 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-61
+      2013-11-22 19:48:37,339 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-71
+      2013-11-22 20:18:14,306 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-71
+      2013-11-22 20:18:14,306 - Starting org.apache.commmons.beanutils
+ERROR bytesizebook.guide.ch4.enhanced http-bio-8084-exec-79
+      2013-11-22 20:18:42,866 - (invoke) Button method exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at shared.HelperBaseCh4.invokeButtonMethod(HelperBaseCh4.java:140)
+	at shared.HelperBaseCh4.executeButtonMethod(HelperBaseCh4.java:110)
+	at shared.HelperBaseCh4.executeButtonMethod(HelperBaseCh4.java:86)
+	at hw3.persistentData.ControllerHelper.doPost(ControllerHelper.java:153)
+	at hw3.persistentData.Controller.doPost(Controller.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:393)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.NullPointerException
+	at shared.HibernateHelper.updateDB(HibernateHelper.java:132)
+	at hw3.persistentData.ControllerHelper.processMethod(ControllerHelper.java:102)
+	... 30 more
+ERROR bytesizebook.guide.ch4.enhanced http-bio-8084-exec-63
+      2013-11-22 20:19:11,371 - (invoke) Button method exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at shared.HelperBaseCh4.invokeButtonMethod(HelperBaseCh4.java:140)
+	at shared.HelperBaseCh4.executeButtonMethod(HelperBaseCh4.java:110)
+	at shared.HelperBaseCh4.executeButtonMethod(HelperBaseCh4.java:86)
+	at hw3.persistentData.ControllerHelper.doPost(ControllerHelper.java:153)
+	at hw3.persistentData.Controller.doPost(Controller.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:393)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.NullPointerException
+	at shared.HibernateHelper.updateDB(HibernateHelper.java:132)
+	at hw3.persistentData.ControllerHelper.processMethod(ControllerHelper.java:102)
+	... 30 more
+ERROR bytesizebook.guide.ch4.enhanced http-bio-8084-exec-77
+      2013-11-22 20:19:17,998 - (invoke) Button method exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at shared.HelperBaseCh4.invokeButtonMethod(HelperBaseCh4.java:140)
+	at shared.HelperBaseCh4.executeButtonMethod(HelperBaseCh4.java:110)
+	at shared.HelperBaseCh4.executeButtonMethod(HelperBaseCh4.java:86)
+	at hw3.persistentData.ControllerHelper.doPost(ControllerHelper.java:153)
+	at hw3.persistentData.Controller.doPost(Controller.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:393)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.NullPointerException
+	at shared.HibernateHelper.updateDB(HibernateHelper.java:132)
+	at hw3.persistentData.ControllerHelper.processMethod(ControllerHelper.java:102)
+	... 30 more
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-82
+      2013-11-22 20:56:57,246 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-82
+      2013-11-22 20:56:57,246 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-89
+      2013-11-22 21:07:59,123 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-89
+      2013-11-22 21:07:59,123 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-101
+      2013-11-22 21:16:22,073 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-101
+      2013-11-22 21:16:22,073 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-110
+      2013-11-22 21:29:11,514 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-110
+      2013-11-22 21:29:11,514 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-116
+      2013-11-22 21:30:11,808 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-116
+      2013-11-22 21:30:11,808 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils localhost-startStop-1
+      2013-11-22 21:44:27,240 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils localhost-startStop-1
+      2013-11-22 21:44:27,240 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-1
+      2013-11-22 21:44:31,002 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-1
+      2013-11-22 21:44:31,002 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-19
+      2013-11-23 01:47:47,046 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-19
+      2013-11-23 01:47:47,046 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-29
+      2013-11-23 01:55:39,012 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-29
+      2013-11-23 01:55:39,012 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-31
+      2013-11-23 01:57:45,650 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-31
+      2013-11-23 01:57:45,650 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-44
+      2013-11-23 03:00:50,503 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-44
+      2013-11-23 03:00:50,503 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-47
+      2013-11-23 03:26:56,259 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-47
+      2013-11-23 03:26:56,259 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-73
+      2013-11-23 03:39:46,160 - Starting org.apache.commmons.beanutils
+INFO  org.apache.commmons.beanutils http-bio-8084-exec-73
+      2013-11-23 03:39:46,160 - Starting org.apache.commmons.beanutils

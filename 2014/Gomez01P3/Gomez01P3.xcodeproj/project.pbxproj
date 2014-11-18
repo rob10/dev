@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFAA707C19D0E0A6000D34FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAA707B19D0E0A6000D34FC /* Foundation.framework */; };
+		BFAA707E19D0E0A6000D34FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAA707D19D0E0A6000D34FC /* CoreGraphics.framework */; };
+		BFAA708019D0E0A6000D34FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAA707F19D0E0A6000D34FC /* UIKit.framework */; };
+		BFAA708619D0E0A6000D34FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFAA708419D0E0A6000D34FC /* InfoPlist.strings */; };
+		BFAA708819D0E0A6000D34FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAA708719D0E0A6000D34FC /* main.m */; };
+		BFAA708C19D0E0A6000D34FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAA708B19D0E0A6000D34FC /* AppDelegate.m */; };
+		BFAA708F19D0E0A6000D34FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAA708D19D0E0A6000D34FC /* Main.storyboard */; };
+		BFAA709219D0E0A6000D34FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAA709119D0E0A6000D34FC /* ViewController.m */; };
+		BFAA709419D0E0A7000D34FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAA709319D0E0A7000D34FC /* Images.xcassets */; };
+		BFAA709B19D0E0A7000D34FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAA709A19D0E0A7000D34FC /* XCTest.framework */; };
+		BFAA709C19D0E0A7000D34FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAA707B19D0E0A6000D34FC /* Foundation.framework */; };
+		BFAA709D19D0E0A7000D34FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAA707F19D0E0A6000D34FC /* UIKit.framework */; };
+		BFAA70A519D0E0A7000D34FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFAA70A319D0E0A7000D34FC /* InfoPlist.strings */; };
+		BFAA70A719D0E0A7000D34FC /* Gomez01P3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAA70A619D0E0A7000D34FC /* Gomez01P3Tests.m */; };
+		BFAA70B219D0FB3B000D34FC /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAA70B119D0FB3B000D34FC /* Fraction.m */; };
+		BFAA70B519D0FBD1000D34FC /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAA70B419D0FBD1000D34FC /* Calculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFAA709E19D0E0A7000D34FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAA707019D0E0A6000D34FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAA707719D0E0A6000D34FC;
+			remoteInfo = Gomez01P3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFAA707819D0E0A6000D34FC /* Gomez01P3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gomez01P3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAA707B19D0E0A6000D34FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFAA707D19D0E0A6000D34FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFAA707F19D0E0A6000D34FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFAA708319D0E0A6000D34FC /* Gomez01P3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gomez01P3-Info.plist"; sourceTree = "<group>"; };
+		BFAA708519D0E0A6000D34FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFAA708719D0E0A6000D34FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFAA708919D0E0A6000D34FC /* Gomez01P3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gomez01P3-Prefix.pch"; sourceTree = "<group>"; };
+		BFAA708A19D0E0A6000D34FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFAA708B19D0E0A6000D34FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFAA708E19D0E0A6000D34FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFAA709019D0E0A6000D34FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFAA709119D0E0A6000D34FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFAA709319D0E0A7000D34FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFAA709919D0E0A7000D34FC /* Gomez01P3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gomez01P3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAA709A19D0E0A7000D34FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFAA70A219D0E0A7000D34FC /* Gomez01P3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gomez01P3Tests-Info.plist"; sourceTree = "<group>"; };
+		BFAA70A419D0E0A7000D34FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFAA70A619D0E0A7000D34FC /* Gomez01P3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gomez01P3Tests.m; sourceTree = "<group>"; };
+		BFAA70B019D0FB3B000D34FC /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		BFAA70B119D0FB3B000D34FC /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		BFAA70B319D0FBD1000D34FC /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		BFAA70B419D0FBD1000D34FC /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFAA707519D0E0A6000D34FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA707E19D0E0A6000D34FC /* CoreGraphics.framework in Frameworks */,
+				BFAA708019D0E0A6000D34FC /* UIKit.framework in Frameworks */,
+				BFAA707C19D0E0A6000D34FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAA709619D0E0A7000D34FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA709B19D0E0A7000D34FC /* XCTest.framework in Frameworks */,
+				BFAA709D19D0E0A7000D34FC /* UIKit.framework in Frameworks */,
+				BFAA709C19D0E0A7000D34FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFAA706F19D0E0A6000D34FC = {
+			isa = PBXGroup;
+			children = (
+				BFAA708119D0E0A6000D34FC /* Gomez01P3 */,
+				BFAA70A019D0E0A7000D34FC /* Gomez01P3Tests */,
+				BFAA707A19D0E0A6000D34FC /* Frameworks */,
+				BFAA707919D0E0A6000D34FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFAA707919D0E0A6000D34FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA707819D0E0A6000D34FC /* Gomez01P3.app */,
+				BFAA709919D0E0A7000D34FC /* Gomez01P3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAA707A19D0E0A6000D34FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA707B19D0E0A6000D34FC /* Foundation.framework */,
+				BFAA707D19D0E0A6000D34FC /* CoreGraphics.framework */,
+				BFAA707F19D0E0A6000D34FC /* UIKit.framework */,
+				BFAA709A19D0E0A7000D34FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFAA708119D0E0A6000D34FC /* Gomez01P3 */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA708A19D0E0A6000D34FC /* AppDelegate.h */,
+				BFAA708B19D0E0A6000D34FC /* AppDelegate.m */,
+				BFAA708D19D0E0A6000D34FC /* Main.storyboard */,
+				BFAA709019D0E0A6000D34FC /* ViewController.h */,
+				BFAA709119D0E0A6000D34FC /* ViewController.m */,
+				BFAA709319D0E0A7000D34FC /* Images.xcassets */,
+				BFAA708219D0E0A6000D34FC /* Supporting Files */,
+				BFAA70B019D0FB3B000D34FC /* Fraction.h */,
+				BFAA70B119D0FB3B000D34FC /* Fraction.m */,
+				BFAA70B319D0FBD1000D34FC /* Calculator.h */,
+				BFAA70B419D0FBD1000D34FC /* Calculator.m */,
+			);
+			path = Gomez01P3;
+			sourceTree = "<group>";
+		};
+		BFAA708219D0E0A6000D34FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA708319D0E0A6000D34FC /* Gomez01P3-Info.plist */,
+				BFAA708419D0E0A6000D34FC /* InfoPlist.strings */,
+				BFAA708719D0E0A6000D34FC /* main.m */,
+				BFAA708919D0E0A6000D34FC /* Gomez01P3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFAA70A019D0E0A7000D34FC /* Gomez01P3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA70A619D0E0A7000D34FC /* Gomez01P3Tests.m */,
+				BFAA70A119D0E0A7000D34FC /* Supporting Files */,
+			);
+			path = Gomez01P3Tests;
+			sourceTree = "<group>";
+		};
+		BFAA70A119D0E0A7000D34FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA70A219D0E0A7000D34FC /* Gomez01P3Tests-Info.plist */,
+				BFAA70A319D0E0A7000D34FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFAA707719D0E0A6000D34FC /* Gomez01P3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAA70AA19D0E0A7000D34FC /* Build configuration list for PBXNativeTarget "Gomez01P3" */;
+			buildPhases = (
+				BFAA707419D0E0A6000D34FC /* Sources */,
+				BFAA707519D0E0A6000D34FC /* Frameworks */,
+				BFAA707619D0E0A6000D34FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gomez01P3;
+			productName = Gomez01P3;
+			productReference = BFAA707819D0E0A6000D34FC /* Gomez01P3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFAA709819D0E0A7000D34FC /* Gomez01P3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAA70AD19D0E0A7000D34FC /* Build configuration list for PBXNativeTarget "Gomez01P3Tests" */;
+			buildPhases = (
+				BFAA709519D0E0A7000D34FC /* Sources */,
+				BFAA709619D0E0A7000D34FC /* Frameworks */,
+				BFAA709719D0E0A7000D34FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAA709F19D0E0A7000D34FC /* PBXTargetDependency */,
+			);
+			name = Gomez01P3Tests;
+			productName = Gomez01P3Tests;
+			productReference = BFAA709919D0E0A7000D34FC /* Gomez01P3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFAA707019D0E0A6000D34FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rgome117;
+				TargetAttributes = {
+					BFAA709819D0E0A7000D34FC = {
+						TestTargetID = BFAA707719D0E0A6000D34FC;
+					};
+				};
+			};
+			buildConfigurationList = BFAA707319D0E0A6000D34FC /* Build configuration list for PBXProject "Gomez01P3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFAA706F19D0E0A6000D34FC;
+			productRefGroup = BFAA707919D0E0A6000D34FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFAA707719D0E0A6000D34FC /* Gomez01P3 */,
+				BFAA709819D0E0A7000D34FC /* Gomez01P3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFAA707619D0E0A6000D34FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA709419D0E0A7000D34FC /* Images.xcassets in Resources */,
+				BFAA708619D0E0A6000D34FC /* InfoPlist.strings in Resources */,
+				BFAA708F19D0E0A6000D34FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAA709719D0E0A7000D34FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA70A519D0E0A7000D34FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAA707419D0E0A6000D34FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA709219D0E0A6000D34FC /* ViewController.m in Sources */,
+				BFAA708C19D0E0A6000D34FC /* AppDelegate.m in Sources */,
+				BFAA708819D0E0A6000D34FC /* main.m in Sources */,
+				BFAA70B219D0FB3B000D34FC /* Fraction.m in Sources */,
+				BFAA70B519D0FBD1000D34FC /* Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAA709519D0E0A7000D34FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA70A719D0E0A7000D34FC /* Gomez01P3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFAA709F19D0E0A7000D34FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAA707719D0E0A6000D34FC /* Gomez01P3 */;
+			targetProxy = BFAA709E19D0E0A7000D34FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFAA708419D0E0A6000D34FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAA708519D0E0A6000D34FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFAA708D19D0E0A6000D34FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAA708E19D0E0A6000D34FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFAA70A319D0E0A7000D34FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAA70A419D0E0A7000D34FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFAA70A819D0E0A7000D34FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFAA70A919D0E0A7000D34FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFAA70AB19D0E0A7000D34FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomez01P3/Gomez01P3-Prefix.pch";
+				INFOPLIST_FILE = "Gomez01P3/Gomez01P3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFAA70AC19D0E0A7000D34FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomez01P3/Gomez01P3-Prefix.pch";
+				INFOPLIST_FILE = "Gomez01P3/Gomez01P3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFAA70AE19D0E0A7000D34FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gomez01P3.app/Gomez01P3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomez01P3/Gomez01P3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gomez01P3Tests/Gomez01P3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFAA70AF19D0E0A7000D34FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gomez01P3.app/Gomez01P3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomez01P3/Gomez01P3-Prefix.pch";
+				INFOPLIST_FILE = "Gomez01P3Tests/Gomez01P3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFAA707319D0E0A6000D34FC /* Build configuration list for PBXProject "Gomez01P3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAA70A819D0E0A7000D34FC /* Debug */,
+				BFAA70A919D0E0A7000D34FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAA70AA19D0E0A7000D34FC /* Build configuration list for PBXNativeTarget "Gomez01P3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAA70AB19D0E0A7000D34FC /* Debug */,
+				BFAA70AC19D0E0A7000D34FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFAA70AD19D0E0A7000D34FC /* Build configuration list for PBXNativeTarget "Gomez01P3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAA70AE19D0E0A7000D34FC /* Debug */,
+				BFAA70AF19D0E0A7000D34FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFAA707019D0E0A6000D34FC /* Project object */;
+}
